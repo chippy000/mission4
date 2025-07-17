@@ -58,6 +58,39 @@
 
 /* 通用樣式：文字 - 字體、行高、字級、字重、字距 */
 
+/* 通用樣式：字體顏色、背景顏色 */
+.text-white{
+    color: $neutral-0;
+}
+
+.text-primary-400{
+    color: $primary-400;
+}
+
+.text-danger{
+    color: $danger-300;
+}
+
+.text-neutral-500{
+    color: $neutral-500;
+}
+
+.text-neutral-600{
+    color: $neutral-600;
+}
+
+.bg-primary-100{
+    background: $primary-100;
+}
+
+.bg-primary-200{
+    background: $primary-200;
+}
+
+.bg-neutral-100{
+    background: $neutral-100;
+}
+/* 通用樣式：字體顏色、背景顏色 */
 
 /* 通用樣式：間距 */
 
