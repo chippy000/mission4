@@ -1,7 +1,7 @@
 /* page */
 
 .header{
-    background-image: url(../assets/images/hero.png);
+    background-image: url(/assets/images/hero.png);
     background-repeat: no-repeat;
     background-size: cover;
     /* 背景圖填滿整個區塊 */
@@ -9,7 +9,7 @@
     padding: 152px 0;
     text-align: center;
     @include mobile-larger{
-        background-image: url(../assets/images/hero-sm.png);
+        background-image: url(/assets/images/hero-sm.png);
         padding: 87px 0;
     }
 }
