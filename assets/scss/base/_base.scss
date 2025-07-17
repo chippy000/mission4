@@ -1,0 +1,92 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+img{
+    vertical-align: middle;
+    /* 清除圖片下方 2-3 公分的空白 */
+    max-width: 100%;
+    height: auto;
+}
+
+a{
+    color:$neutral-900;
+    text-decoration: none;
+    display: block;
+    font-weight: 500;
+}
+
+body{
+    font-family: "Noto Sans TC", sans-serif;
+    line-height: 1.5;
+    /* 觀察大部分內文行高，其他再自己 class */
+    letter-spacing: 0.05em;
+    color: $neutral-900;
+}
+
+h1{
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+h3{
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+h4{
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+h5{
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+h6{
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.text-white{
+    color: $neutral-0;
+}
+
+.text-primary-400{
+    color: $primary-400;
+}
+
+.text-danger{
+    color: $danger-300;
+}
+
+.text-neutral-500{
+    color: $neutral-500;
+}
+
+.text-neutral-600{
+    color: $neutral-600;
+}
+
+.bg-primary-100{
+    background: $primary-100;
+}
+
+.bg-primary-200{
+    background: $primary-200;
+}
+
+.bg-neutral-100{
+    background: $neutral-100;
+}

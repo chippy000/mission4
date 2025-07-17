@@ -1,0 +1,581 @@
+/* 通用樣式：標籤基本樣式 */
+
+/* 通用樣式：標籤基本樣式 */
+
+/* 通用樣式：文字 - 字體、行高、字級、字重、字距 */
+
+
+.h3-md{
+    @include mobile-larger{
+        font-size: 28px;
+    }
+}
+.h4-md{
+    @include mobile-larger{
+        font-size: 24px; 
+    }
+      
+}
+.h5-md{
+    @include mobile-larger{
+       font-size: 20px;   
+    } 
+}
+.h6-md{
+    @include mobile-larger{
+      font-size: 16px;    
+    } 
+}
+
+
+.h3-sm{
+    @include mobile{
+       font-size: 28px;   
+    } 
+}
+.h4-sm{
+    @include mobile{
+        font-size: 24px;  
+    } 
+}
+.h5-sm{
+    @include mobile{
+       font-size: 20px;   
+    }   
+}
+.h6-sm{
+    @include mobile{
+        font-size: 16px;
+    } 
+}
+
+.text-sm{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+/* 通用樣式：文字 - 字體、行高、字級、字重、字距 */
+
+
+/* 通用樣式：間距 */
+
+.pb48{
+    /* 觀察內部元素到區塊距離 */
+    padding-bottom: 48px;
+}
+
+.pl8{
+    padding-left: 8px;
+}
+
+.pr8{
+    padding-right: 8px;
+}
+
+.py8{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.py12{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.py16{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.py24{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.py32{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.py48{
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.py64{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.prl12{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.p12{
+    padding: 12px;
+}
+
+.p32{
+    padding: 32px;
+}
+
+.mr8{
+    margin-right: 8px;
+}
+
+.mr24{
+    margin-right: 24px;
+}
+
+.mr40{
+    margin-right: 40px;
+}
+
+.mr48{
+    margin-right: 48px;
+}
+
+.mrl-12{
+    margin-right: -12px;
+    margin-left: -12px;
+}
+
+.mt32{
+    margin-top: 32px;
+}
+
+.mb4{
+    margin-bottom: 4px;
+}
+
+.mb8{
+    margin-bottom: 8px;
+}
+
+.mb12{
+    margin-bottom: 12px;
+}
+
+.mb16{
+    margin-bottom: 16px;
+}
+
+.mb24{
+    margin-bottom: 24px;
+}
+
+.mb32{
+    margin-bottom: 32px;
+}
+
+.mb40{
+    margin-bottom: 40px;
+}
+
+.mb48{
+    /* 觀察每塊群組間距 */
+    margin-bottom: 48px;
+}
+
+.gap8{
+    gap: 8px;
+}
+
+
+.px-md-0{
+    @include mobile-larger{
+        padding-left: 12px;
+        padding-right: 12px;
+    }    
+}
+.py-md-0{
+    @include mobile-larger{
+        padding-top: 0;
+        padding-bottom: 0; 
+    }
+}
+.py-md-40{
+    @include mobile-larger{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+}
+.py-md-32{
+    @include mobile-larger{
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+}
+.pb-md-32{
+    @include mobile-larger{
+        padding-bottom: 32px;
+    }
+}
+.p-md-12{
+    @include mobile-larger{
+       padding: 12px; 
+    }    
+}
+.p-md-24{
+    @include mobile-larger{
+        padding: 24px;
+    }  
+}
+.mb-md-0{
+    @include mobile-larger{
+       margin-bottom: 0px; 
+    }    
+}
+.mb-md-8{
+    @include mobile-larger{
+       margin-bottom: 8px; 
+    }    
+}
+.mb-md-12{
+    @include mobile-larger{
+        margin-bottom: 12px;  
+    }    
+}
+.mb-md-16{
+    @include mobile-larger{
+        margin-bottom: 16px;  
+    }    
+}
+.mb-md-24{
+    @include mobile-larger{
+        margin-bottom: 24px; 
+    }    
+}
+.mb-md-32{
+    @include mobile-larger{
+        margin-bottom: 32px; 
+    }    
+}
+.mb-md-64{
+    @include mobile-larger{
+        margin-bottom: 64px;
+    }    
+}
+.mr-md-0{
+    @include mobile-larger{
+        margin-right: 0;
+    }    
+}
+
+.px-sm-12{
+    @include mobile{
+        padding-right: 12px;
+        padding-left: 12px; 
+    }    
+}
+.py-sm-12{
+    @include mobile{
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }    
+}
+.py-sm-32{
+    @include mobile{
+        padding: 32px;
+    }    
+}
+
+
+/* 通用樣式：間距 */
+
+/* 通用樣式：容器＆排列 */
+
+
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+.intro{
+    max-width: 1076px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc(100% / 12);
+}
+
+.col-2{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc(100% / 12*2);
+}
+
+.col-3{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc(100% / 12*3);
+}
+
+.col-4{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc(100% / 12*4);
+}
+
+.col-5{
+    padding-left: 24px;
+    padding-right: 12px;
+    width: calc(100% / 12*5);
+}
+
+.col-6{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc(100% / 12*6);
+}
+
+.col-7{
+    padding-left: 4px;
+    padding-right: 4px;
+    width: calc(100% / 12*7);
+}
+
+.col-8{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc(100% / 12*8);
+}
+
+.col-9{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc(100% / 12*9);
+}
+
+.col-10{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc(100% / 12*10);
+}
+
+.col-11{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc(100% / 12*11);
+}
+
+.col-12{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc(100% / 12*12);
+}
+
+
+    .row{
+        @include mobile-larger{
+            margin-left: -6px;
+            margin-right: -6px;
+        }    
+    }
+    .gap-md-16{
+        @include mobile-larger{
+            gap: 16px;
+        }
+        
+    }
+    .col-md-1{
+        @include mobile-larger{
+            padding-left: 6px;
+            padding-right: 6px;
+            width: calc(100% / 4 * 1); 
+        }
+        
+    }
+    .col-md-2{
+        @include mobile-larger{
+            padding-left: 6px;
+            padding-right: 6px;
+            width: calc(100% / 4 * 2); 
+        }
+        
+    }
+    .col-md-3{
+        @include mobile-larger{
+            padding-left: 6px;
+            padding-right: 6px;
+            width: calc(100% / 4 * 3); 
+        }    
+    }
+    .col-md-4{
+        @include mobile-larger{
+            padding-left: 6px;
+            padding-right: 6px;
+            width: 100%; 
+        }
+    }
+
+.d-f{
+    display: flex;
+}
+
+.jcc{
+    justify-content: center;
+}
+
+.jcsb{
+    justify-content: space-between;
+}
+
+.aic{
+    align-items: center;
+}
+
+.f-w{
+    flex-wrap: wrap;
+}
+
+/* 通用樣式：容器＆排列 */
+
+/* 通用樣式：元件 */
+
+.breadcrumb-item + .breadcrumb-item::before{
+    content: '/';
+    padding: 0 12px;
+    color: $neutral-300;
+    font-weight: 700;
+}
+
+.breadcrumb-item{
+    display: flex;
+    font-weight: 500;
+}
+
+.breadcrumb-link{
+    color: $neutral-600;
+}
+
+
+.breadcrumb-item + .breadcrumb-item::before{
+    @include mobile-larger{
+        padding: 0 8px;
+    }
+    
+}
+.breadcrumb-item{
+    @include mobile-larger{
+        font-size: 14px;
+    }
+    
+}
+
+
+/* 通用樣式：元件 */
+
+.btn{
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-weight: 500;
+    line-height: 1.5;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+.btn{
+    @include mobile{
+        padding: 8px 16px;
+        height: 48px;
+    }
+
+}
+
+.btn-dark{
+    background-color: $neutral-900;
+    color: $neutral-0;
+}
+
+.section-line{
+    border-bottom: 1px solid $neutral-300;
+}
+
+.d-none{
+    display: none;
+}
+.d-block{
+    display: block;
+}
+
+.scroll-section{
+    @include mobile-larger{
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        padding-bottom: 40px;
+    }
+    
+}
+.col-md-card{
+    @include mobile-larger{
+        flex: 0 0 auto;
+        width: 80%;
+    }
+    
+}
+.d-md-inline-block{
+    @include mobile-larger{
+        display: inline-block;
+    }
+    
+}
+.d-md-f{
+    @include mobile-larger{
+        display: flex;
+    }
+    
+}
+.d-md-contents{
+    @include mobile-larger{
+        display: contents;
+    }
+    
+}
+.d-md-block{
+    @include mobile-larger{
+        display: block;
+    }
+    
+}
+.d-md-none{
+    @include mobile-larger{
+        display: none;
+    }
+    
+}
+.d-md-nowrap{
+    @include mobile-larger{
+        flex-wrap: nowrap;
+    }
+    
+}
+
+
+
+.d-sm-block{
+    @include mobile{
+        display: block;
+    }
+    
+}
+.d-sm-none{
+    @include mobile{
+        display: none;
+    }
+    
+}

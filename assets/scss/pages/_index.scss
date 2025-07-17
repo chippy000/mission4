@@ -1,3 +1,95 @@
-.index-title {
-  font-size: 100px;
+/* page */
+
+.header{
+    background-image: url(../assets/images/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* 背景圖填滿整個區塊 */
+    background-position: center;
+    padding: 152px 0;
+    text-align: center;
 }
+
+.eng-title{
+    font-size: 28px;
+}
+
+.story-link{
+    color: $primary-400;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    /* 文字下底線偏移 */
+    display: block;
+    /* 因為都獨立一行，所以設定區塊元素 */
+}
+
+
+.header{
+    @include mobile-larger{
+        background-image: url(../assets/images/hero-sm.png);
+        padding: 87px 0;
+    }
+    
+}
+
+.eng-title{
+    @include mobile-larger{
+        font-size: 20px;
+    } 
+}
+
+
+.quote{
+    border-radius: 12px;
+    text-align: center;
+}
+
+.quote{
+    @include mobile-larger{
+        text-align: left;
+    }
+    
+}
+
+.intro img{
+    max-width: 100%;
+    margin-left: -110px;
+    margin-right: -110px;
+}
+
+.section-line{
+    border-bottom: 1px solid $neutral-300;
+}
+
+.history-desc{
+    border-left: 1px solid $neutral-900;
+    padding-left: 8px;
+}
+
+.history-list{
+    list-style-type: disc;
+    padding-left: 24px;
+}
+
+.concept-item{
+    padding-left: 12px;
+    border-left: 3px solid $neutral-300;
+}
+
+.bi{
+    padding-right: 8px;
+    vertical-align: bottom;
+}
+
+.footer{
+    text-align: center;
+}
+
+.nav-link{
+    color:$neutral-900;
+    text-decoration: none;
+    display: block;
+    font-weight: 500;
+}
+
+/* page */

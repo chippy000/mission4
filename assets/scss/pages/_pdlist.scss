@@ -1,0 +1,22 @@
+.category .active{
+    color: $primary-400;
+}
+
+.page-item .btn{
+    padding: 8px 15px;
+    border-radius: 0;
+    font-weight: 400;
+}
+
+.page-item .active{
+    background-color: $primary-300;
+    font-weight: 500;
+}
+
+.nav-bottom{
+    width: 100%;
+}
+
+.section-line{
+    border-bottom: 1px solid $neutral-300;
+}

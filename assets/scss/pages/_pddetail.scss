@@ -1,0 +1,67 @@
+
+/* 產品圖片 */
+
+.pd-row{
+    margin-left: -4px;
+    margin-right: -4px;
+}
+
+.pd-col{
+    width: calc(100%/12*6);
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+@media(max-width: 767px){
+    .pd-col{
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .pd-row{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+/* 產品圖顏色 */
+
+.pd-color{
+    width: 64px;
+    text-align: center;
+    color: $neutral-600;
+}
+
+/* 產品尺寸按鈕 */
+
+.btn-pd-size{
+    border: 1px solid $neutral-300;
+    width: 160px;
+}
+
+.btn-pd-size.active,
+.btn-pd-size:hover{
+    border-color: $neutral-900;
+}
+
+.btn-light{
+    border: 1px solid $neutral-900;
+}
+
+.pd-action{
+    gap: 8px;
+    .btn{
+        width: 50%; 
+        @include mobile-larger{
+            width: 100%;
+        }    
+    }
+}
+
+.pd-info-title{
+    font-weight: 500;
+}
+
+.nav-bottom{
+    width: 100%;
+}
