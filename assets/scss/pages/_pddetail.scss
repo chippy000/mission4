@@ -39,9 +39,11 @@
     width: 160px;
 }
 
-.btn-pd-size.active,
-.btn-pd-size:hover{
+.btn-pd-size {
+  &:hover,
+  &.active {
     border-color: $neutral-900;
+  }
 }
 
 .btn-light{
