@@ -8,6 +8,10 @@
     background-position: center;
     padding: 152px 0;
     text-align: center;
+    @include mobile-larger{
+        background-image: url(../assets/images/hero-sm.png);
+        padding: 87px 0;
+    }
 }
 
 .eng-title{
@@ -21,15 +25,6 @@
     /* 文字下底線偏移 */
     display: block;
     /* 因為都獨立一行，所以設定區塊元素 */
-}
-
-
-.header{
-    @include mobile-larger{
-        background-image: url(../assets/images/hero-sm.png);
-        padding: 87px 0;
-    }
-    
 }
 
 .eng-title{
