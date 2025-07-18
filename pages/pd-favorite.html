@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>品牌列表頁</title>
+</head>
+<body>
+    <%- include('./layout/header'); -%>
+    <main class="container">
+        <div class="row aic jcc favorite-col-set my64 my-md-24">
+            <div class="col-6 col-md-4 mb32 mb-md-24">
+                    <div class="d-f aic jcc">
+                        <h3 class="h3 h4-md"><span class="check-lg mr16 mr-md-8"><i class="bi bi-check-lg"></i></span>我的收藏</h3>  
+                    </div>
+            </div>
+            <!-- 營業時間 -->
+            <div class="col-6 col-md-4">
+                    <div class="text_opentime d-f aic bg-primary-100 pltb16 pr-md-16 row_md_opentime">
+                        <h3 class=""><span class="truck mr12"><i class="bi bi-truck"></i></span></h3>
+                        <div class="favorite-d-f">
+                            <p>門市營業時間：</p>
+                            <p>週一至週五 10:00 - 22:00</p>
+                        </div>
+                    </div>
+            </div>
+            <!-- 收藏卡片 -->
+            <div class="col-6 col-md-4">
+                    <div class="col-12 py32 pt-md-24 section-line">
+                        <a href="pd-detail.html" class="d-f">
+                            <!-- 小圖片 -->
+                            <img class="mr16" src="../assets/images/image.png" alt="PLATFORM 404" style="width: 120px; height: 120px;">
+                            <!-- 商品詳情 -->
+                            <div class="favorite-card">
+                                <h5 class="h5 h6-md">PLATFORM 404</h5>
+                                <p class="fz14-md"><span class="text-favorit text-neutral-600 mr12">尺寸</span>38</p>
+                                <p class="fz14-md"><span class="text-favorit text-neutral-600 mr12">顏色</span>Navy</p>
+                                <p><h6 class="h6 favorite-price">NT$2,600</h6></p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 py32 pt-md-24 section-line">
+                        <a href="#" class="d-f">
+                            <!-- 小圖片 -->
+                            <img class="mr16" src="../assets/images/product-4.png" alt="BOOMLOK" style="width: 120px; height: 120px;">
+                            <!-- 商品詳情 -->
+                            <div class="favorite-card">
+                                <h5 class="h5 h6-md">BOOMLOK</h5>
+                                <p class="fz14-md"><span class="text-favorit text-neutral-600 mr12">尺寸</span>38</p>
+                                <p class="fz14-md"><span class="text-favorit text-neutral-600 mr12">顏色</span>White</p>
+                                <p><h6 class="h6 favorite-price">NT$3,200</h6></p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 py32 pt-md-24 section-line">
+                        <a href="#" class="d-f">
+                            <!-- 小圖片 -->
+                            <img class="mr16" src="../assets/images/product-3.png" alt="MELTY KISS" style="width: 120px; height: 120px;">
+                            <!-- 商品詳情 -->
+                            <div class="favorite-card">
+                                <h5 class="h5 h6-md">MELTY KISS</h5>
+                                <p class="fz14-md"><span class="text-favorit text-neutral-600 mr12">尺寸</span>38</p>
+                                <p class="fz14-md"><span class="text-favorit text-neutral-600 mr12">顏色</span>Violet</p>
+                                <p><h6 class="h6 favorite-price">NT$4,000</h6></p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="d-f aic jcc mt32">
+                        <button type="button" class="btn btn-dark">立即預約門市試穿</button>
+                    </div>
+            </div>
+        </div>
+    </main>
+    <%- include('./layout/footer'); -%>
+    <script type="module" src="../main.js"></script>
+</body>
+</html>
